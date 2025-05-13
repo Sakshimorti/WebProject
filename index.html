@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Text to Speech Converter</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="app-container">
+      <div class="headings-container">
+        <h1>🔊 Text to Speech Converter</h1>
+        <h3>Type your text and hear it spoken aloud</h3>
+      </div>
+
+      <div class="interaction-container">
+        <textarea id="textToConvert" placeholder="Enter your text here..." cols="35" rows="8" class="text-control"></textarea>
+        <p class="error-para" id="error"></p>
+        <button class="btn" id="convertBtn">▶ Play Speech</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
